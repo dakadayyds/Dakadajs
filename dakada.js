@@ -193,6 +193,7 @@
                 }else{
                     try{
                         var func=String(args.name);
+                        var funcargs=String(args.args).split(",");
                         this.lists[func]=new Function(...funcargs,listvalue.join(" "));
                     }catch(err2){
                         this.e=err2;
