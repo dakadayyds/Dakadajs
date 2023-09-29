@@ -7,11 +7,6 @@ class dakada{
         this.lists=[]
         this.e=''
     }
-    get VALUE1(){
-        return[
-            {text:"你好",value:"你好"}
-        ]
-    }
 
     getInfo(){
         return {
